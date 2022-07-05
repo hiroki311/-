@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BA6E2046-9A2E-4391-8F2E-9650EAC238DD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LAB_FORMS</RootNamespace>
+    <AssemblyName>LAB_FORMS</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bar.designer.cs">
+      <DependentUpon>Bar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="computer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="computer.Designer.cs">
+      <DependentUpon>computer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form35.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form35.Designer.cs">
+      <DependentUpon>Form35.cs</DependentUpon>
+    </Compile>
+    <Compile Include="home2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="home2.Designer.cs">
+      <DependentUpon>home2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loan11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loan11.designer.cs">
+      <DependentUpon>loan11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="member.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="member.Designer.cs">
+      <DependentUpon>member.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MYmethod.cs" />
+    <Compile Include="HELLO Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HELLO Form1.Designer.cs">
+      <DependentUpon>HELLO Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="m.cs" />
+    <Compile Include="newhome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newhome.Designer.cs">
+      <DependentUpon>newhome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student.Designer.cs">
+      <DependentUpon>student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student11.designer.cs">
+      <DependentUpon>Student11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="student2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student2.Designer.cs">
+      <DependentUpon>student2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utlilty.cs" />
+    <Compile Include="圈差.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="圈差.Designer.cs">
+      <DependentUpon>圈差.cs</DependentUpon>
+    </Compile>
+    <Compile Include="報表.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="報表.designer.cs">
+      <DependentUpon>報表.cs</DependentUpon>
+    </Compile>
+    <Compile Include="蝦寫.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="蝦寫.Designer.cs">
+      <DependentUpon>蝦寫.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Bar.resx">
+      <DependentUpon>Bar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="computer.resx">
+      <DependentUpon>computer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form35.resx">
+      <DependentUpon>Form35.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HELLO Form1.resx">
+      <DependentUpon>HELLO Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home2.resx">
+      <DependentUpon>home2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loan11.resx">
+      <DependentUpon>loan11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="member.resx">
+      <DependentUpon>member.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newhome.resx">
+      <DependentUpon>newhome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="student.resx">
+      <DependentUpon>student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student11.resx">
+      <DependentUpon>Student11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student2.resx">
+      <DependentUpon>student2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="圈差.resx">
+      <DependentUpon>圈差.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="報表.resx">
+      <DependentUpon>報表.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="蝦寫.resx">
+      <DependentUpon>蝦寫.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
